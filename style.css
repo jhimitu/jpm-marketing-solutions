@@ -1,0 +1,196 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+#wrapper{
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+/* menu base styles */
+
+div {
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	background: #d7ab8e;
+	/*position: fixed;*/
+	width: 100%;
+	overflow: auto;
+
+}
+
+nav ul {
+	list-style-type: none;
+	padding-right: 30px;
+}
+
+nav a {
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	padding: 20px 30px;
+}
+
+
+nav a:hover {
+	background-color: #3f555c;
+}
+
+#backgroundimage {
+	background: url("Design Assets/Images/Paige-Blue.png");
+	max-width: 960px;
+	height: 445px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: cover;
+/*	position: relative;*/
+}
+
+
+@media screen and (min-width: 768px) {
+
+	nav ul {
+		display: flex;
+		justify-content: flex-end;
+	}
+}
+
+/* end menu base styles */
+
+
+/********* HEADER SECTION *********/
+
+.menu {
+	width: 100%;
+	padding: 0;
+
+}
+
+/*.container {
+	position: relative;
+}
+
+.text-block {
+	color: #3f555c;
+	position: absolute;
+	bottom: 250px;
+	right: 350px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+h1 {
+	font-size: 50px;
+	font-weight: lighter;
+	font-family: 'PT Serif' serif;
+}*/
+
+/********* END HEADER SECTION *********/
+
+
+/******** ABOUT SECTION **********/
+.about {
+	width: 100%;
+	height: 750px;
+	text-align: center;
+	color: #3f555c;
+	background-image: url('Design Assets/Images/Desktop-Stock.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.side-image {
+	flex-basis: 400px;
+	padding-top: 100px;
+	margin-left: 30px;
+}
+.main-about-text {
+	flex: 40px;
+	text-align: justify;
+	padding-top: 100px;
+	padding-left: 40px;
+	padding-right: 100px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: lighter;
+	line-height: 30px;
+	font-size: 16px;
+}
+
+.main-about-text h3 {
+	padding-bottom: 15px;
+	font-size: 40px;
+}
+
+/********* END ABOUT SECTION *********/
+
+/********* MISSION SECTION *********/
+
+.mission{
+	height: 550px;
+	text-align: center;
+	color: #fff;
+	background-color: #d7ab8e;
+}
+
+.mission h3 {
+	color: #3f555c;
+	font-size: 70px;
+	font-weight: lighter;
+}
+
+.mission p {
+	padding-top: 40px;
+	width: 650px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 30px;
+	text-align: justify;
+}
+
+.main-mission-text {
+	padding-top: 60px;
+}
+
+.mission li a {
+	display: block;
+}
+
+/********* END MISSION SECTION *********/
+
+/********* CONTACT SECTION *********/
+
+.contact {
+	height: 350px;
+	text-align: center;
+	color: #fff;
+	background-color: #3f555c;
+}
+
+.contact h3 {
+	padding-top: 70px;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.contact p {
+	padding-top: 40px;
+}
+
+/********* END CONTACT SECTION *********/
+
+
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+	
+}
